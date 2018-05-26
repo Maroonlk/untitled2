@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27cabe9f-540e-4dee-9be5-801cee366c71" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记" beforeDir="false" afterPath="$PROJECT_DIR$/笔记" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,23 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="笔记" pinned="false" current-in-tab="false">
+      <file leaf-file-name="笔记" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/笔记">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="678">
-                <caret line="680" selection-start-line="680" selection-end-line="680" />
+              <first_editor relative-caret-position="514">
+                <caret line="688" column="2" selection-start-line="688" selection-start-column="2" selection-end-line="688" selection-end-column="2" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="01.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+            <state relative-caret-position="481">
+              <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -55,13 +57,13 @@
         <option value="$PROJECT_DIR$/mycode.py" />
         <option value="$PROJECT_DIR$/Hello.py" />
         <option value="$PROJECT_DIR$/node.md" />
-        <option value="$PROJECT_DIR$/笔记" />
         <option value="$PROJECT_DIR$/01.py" />
+        <option value="$PROJECT_DIR$/笔记" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="852" />
+    <option name="x" value="289" />
     <option name="y" value="23" />
     <option name="width" value="1068" />
     <option name="height" value="976" />
@@ -281,7 +283,21 @@
       <option name="project" value="LOCAL" />
       <updated>1527329418971</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="0526">
+      <created>1527332161460</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1527332161460</updated>
+    </task>
+    <task id="LOCAL-00009" summary="by pycharm 0526">
+      <created>1527332210868</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1527332210868</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -294,13 +310,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="852" y="23" width="1068" height="976" extended-state="0" />
+    <frame x="289" y="23" width="1068" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49772382" visible="true" weight="0.11365807" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49772382" visible="true" weight="0.13180515" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287827" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" weight="0.34177214" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4991228" visible="true" weight="0.28100115" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4991228" visible="true" weight="0.24459614" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3287827" />
       <window_info anchor="bottom" id="Python Console" order="7" sideWeight="0.49928573" weight="0.298066" />
       <window_info id="Structure" order="1" sideWeight="0.5022762" side_tool="true" weight="0.16621985" />
@@ -357,7 +373,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="0526" />
-    <option name="LAST_COMMIT_MESSAGE" value="0526" />
+    <MESSAGE value="by pycharm 0526" />
+    <option name="LAST_COMMIT_MESSAGE" value="by pycharm 0526" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -465,20 +482,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/笔记">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="678">
-            <caret line="680" selection-start-line="680" selection-end-line="680" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
+    <entry file="file://$PROJECT_DIR$/笔记">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="514">
+            <caret line="688" column="2" selection-start-line="688" selection-start-column="2" selection-end-line="688" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

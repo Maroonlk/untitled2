@@ -39,3 +39,20 @@ print(apple.age)
 apple.doHomeWork()
 
 print(PythonStudent.__dict__) # 显示类的所有成员
+
+
+class MyStudent():
+    name = "apple"
+    age = 18
+    def say_hi(self):
+        print('hi')
+        return None
+
+a = MyStudent()
+a.name = 'Bob'
+a.favorites = 'just do it'
+
+print(a.name, a.age)
+print(a.__dict__)
+print(a.say_hi())
+
