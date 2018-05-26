@@ -45,7 +45,7 @@ class MyStudent():
     name = "apple"
     age = 18
     def say_hi(self, age = 8):
-        self.name = 'aaaa'
+        self.naem = 'aaaa'
         print("My name is {0}".format(self.name))
         print("My age is {0}".format(age))
         return None
