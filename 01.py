@@ -37,3 +37,5 @@ print(apple.name)
 print(apple.age)
 # 注意成员数据的调用，没有传递进入参数
 apple.doHomeWork()
+
+print(PythonStudent.__dict__)
