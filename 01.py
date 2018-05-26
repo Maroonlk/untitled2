@@ -44,8 +44,10 @@ print(PythonStudent.__dict__) # 显示类的所有成员
 class MyStudent():
     name = "apple"
     age = 18
-    def say_hi(self):
-        print('hi')
+    def say_hi(self, age = 8):
+        self.name = 'aaaa'
+        print("My name is {0}".format(self.name))
+        print("My age is {0}".format(age))
         return None
 
 a = MyStudent()
@@ -54,5 +56,23 @@ a.favorites = 'just do it'
 
 print(a.name, a.age)
 print(a.__dict__)
-print(a.say_hi())
+a.say_hi()
+
+class Teacher():
+    name = "Apple"
+    age = 19
+
+    def say(self):
+        self.name = "Bob"
+        self.age = 17
+        print("My name is {0}".format(self.name))
+        print("My age is {0}".format(self.age))
+    def sayagain():
+        print(__class__.name)
+        print(__class__.age)
+        print("Hello, nice to see you again!")
+
+t = Teacher()
+t.say()
+Teacher.sayagain()          # 调用绑定类的函数使用类名
 
