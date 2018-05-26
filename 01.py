@@ -38,4 +38,4 @@ print(apple.age)
 # 注意成员数据的调用，没有传递进入参数
 apple.doHomeWork()
 
-print(PythonStudent.__dict__)
+print(PythonStudent.__dict__) # 显示类的所有成员
