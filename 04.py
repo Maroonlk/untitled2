@@ -1,51 +1,27 @@
-class Animal(object):
+class A(object):
+    def __init__(self, name, age):
+        self.__name = name
+        self.age = age
 
-    def run(self):
-        print("Animal is runing...")
-
-    def eat(self):
-        print("Eating meat...")
-
-
-class Dog(Animal):
-
-    def run(self):
-        print("Dog is runing...")
-
-    def eat(self):
-        print("Eating meat...")
+    def say(self):
+        print("{0}, {1}".format(self.__name, self.age))
 
 
-class Cat(Animal):
-
-    def run(self):
-        print("Cat is runing")
 
 
-def run_twice(animal):
-    animal.run()
-    animal.run()
+bob = A("bob", 22)
+bob.say()
+bob._A__name = "ad"
+print(bob._A__name)  #访问私有成员
 
+print(dir(bob))  #访问私有成员
 
-class Tortoise(Animal):
-    def run(self):
-        print('Tortoise is running slowly...')
+class MyObject(object):
+    def __init__(self):
+        self.x = 9
+    def power(self):
+        return self.x * self.x
 
+obj = MyObject()
 
-dog = Dog()
-dog.run()
-dog.eat()
-cat = Cat()
-cat.run()
-cat.eat()
-
-
-run_twice(Dog())
-
-run_twice(Tortoise())
-
-print(dir(Dog))
-print(Dog.__dict__)
-
-print("ABC".__len__())
-
+print(obj.x + obj.x)
