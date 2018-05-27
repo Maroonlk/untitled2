@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="27cabe9f-540e-4dee-9be5-801cee366c71" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记" beforeDir="false" afterPath="$PROJECT_DIR$/笔记" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.py" beforeDir="false" afterPath="$PROJECT_DIR$/05.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,23 +17,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="笔记" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/笔记">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="514">
-                <caret line="688" column="2" selection-start-line="688" selection-start-column="2" selection-end-line="688" selection-end-column="2" />
-              </first_editor>
-              <second_editor />
+      <file leaf-file-name="01.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/01.py">
+      <file leaf-file-name="04.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/04.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="05.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/05.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="481">
-              <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+              <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="笔记.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/笔记.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="14093">
+                <caret line="829" selection-start-line="829" selection-end-line="829" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -59,13 +76,14 @@
         <option value="$PROJECT_DIR$/node.md" />
         <option value="$PROJECT_DIR$/01.py" />
         <option value="$PROJECT_DIR$/笔记" />
+        <option value="$PROJECT_DIR$/05.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="289" />
+    <option name="x" value="542" />
     <option name="y" value="23" />
-    <option name="width" value="1068" />
+    <option name="width" value="1219" />
     <option name="height" value="976" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -76,17 +94,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <expand>
@@ -98,12 +105,23 @@
           <select />
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="untitled1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="untitled1" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="djan&#9;null&#9;null" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -122,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.01">
+  <component name="RunManager" selected="Python.04">
     <configuration default="true" type="JupiterNotebook" factoryName="Jupyter Notebook">
       <module name="untitled1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,6 +170,60 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="03" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="04" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/04.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="05" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="untitled1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/05.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -215,11 +287,17 @@
       <item itemvalue="Python.Hello" />
       <item itemvalue="Python.mycode" />
       <item itemvalue="Python.01" />
+      <item itemvalue="Python.05" />
+      <item itemvalue="Python.03" />
+      <item itemvalue="Python.04" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.04" />
+        <item itemvalue="Python.03" />
+        <item itemvalue="Python.05" />
+        <item itemvalue="Python.05" />
         <item itemvalue="Python.01" />
-        <item itemvalue="Python.mycode" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +375,14 @@
       <option name="project" value="LOCAL" />
       <updated>1527332210868</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="by pycharm 0526">
+      <created>1527339452843</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1527339452843</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -310,10 +395,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="289" y="23" width="1068" height="976" extended-state="0" />
+    <frame x="542" y="23" width="1219" height="976" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49772382" visible="true" weight="0.13180515" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49772382" visible="true" weight="0.11519199" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3287827" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5013405" side_tool="true" weight="0.34177214" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4991228" visible="true" weight="0.24459614" />
@@ -382,16 +467,90 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/笔记">
+    <entry file="file://$PROJECT_DIR$/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="11560">
-            <caret line="680" selection-start-line="680" selection-end-line="680" />
+          <first_editor relative-caret-position="14093">
+            <caret line="829" selection-start-line="829" selection-end-line="829" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="11" lean-forward="true" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="18" lean-forward="true" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="14093">
+            <caret line="829" lean-forward="true" selection-start-line="829" selection-end-line="829" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="58" column="10" lean-forward="true" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="14212">
+            <caret line="836" column="28" lean-forward="true" selection-start-line="836" selection-start-column="28" selection-end-line="836" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记" />
+    <entry file="file://$PROJECT_DIR$/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记" />
     <entry file="file://$PROJECT_DIR$/01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
@@ -402,29 +561,11 @@
     <entry file="file://$PROJECT_DIR$/Hello.py" />
     <entry file="file://$PROJECT_DIR$/node.md" />
     <entry file="file://$PROJECT_DIR$/mycode.py" />
-    <entry file="file://$PROJECT_DIR$/笔记">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="10778">
-            <caret line="634" column="12" selection-start-line="634" selection-start-column="12" selection-end-line="634" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记" />
     <entry file="file://$PROJECT_DIR$/Hello.py" />
     <entry file="file://$PROJECT_DIR$/node.md" />
     <entry file="file://$PROJECT_DIR$/mycode.py" />
-    <entry file="file://$PROJECT_DIR$/笔记">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="10778">
-            <caret line="634" column="12" lean-forward="true" selection-start-line="634" selection-start-column="12" selection-end-line="634" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/笔记" />
     <entry file="file://$PROJECT_DIR$/Hello.py" />
     <entry file="file://$PROJECT_DIR$/mycode.py" />
     <entry file="file://$PROJECT_DIR$/Hello.py" />
@@ -454,13 +595,7 @@
     <entry file="file://$PROJECT_DIR$/mycode.py" />
     <entry file="file://$PROJECT_DIR$/node.md" />
     <entry file="file://$PROJECT_DIR$/Hello.py" />
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/861050330/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3491">
-          <caret line="754" column="8" selection-start-line="754" selection-start-column="8" selection-end-line="754" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2018.1/python_stubs/861050330/builtins.py" />
     <entry file="file://$USER_HOME$/anaconda3/envs/oop/lib/python3.6/urllib/parse.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -482,20 +617,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="56" column="16" lean-forward="true" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
+    <entry file="file://$PROJECT_DIR$/笔记" />
+    <entry file="file://$PROJECT_DIR$/笔记.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="14093">
+            <caret line="829" selection-start-line="829" selection-end-line="829" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/笔记">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="514">
-            <caret line="688" column="2" selection-start-line="688" selection-start-column="2" selection-end-line="688" selection-end-column="2" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="46" column="60" selection-start-line="46" selection-start-column="60" selection-end-line="46" selection-end-column="60" />
         </state>
       </provider>
     </entry>
