@@ -50,9 +50,58 @@ print(apple.name2)
 
 class Screen(object):
     def __init__(self, width, height):
-        self.__width = width
-        self.__height = height
+        self._width = width
+        self._height = height
 
     @property
     def width(self):
-        return self.__width
+        return self._width
+
+    @width.setter
+    def width(self, value):
+        if not isinstance(value, int):
+            raise ValueError ("Try again")
+        self._width = value
+
+    @property
+    def height(self):
+        return self._height
+
+apple = Screen(12, 1)
+apple.width = 9
+print(apple.width)
+# apple.height = 10
+print(apple.height)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
