@@ -47,3 +47,4 @@ apple.say()
 print(setattr(apple, "name2", "ap"))  # 设置一个"name"的属性，值为"ap"
 print(apple.name2)
 
+import django
