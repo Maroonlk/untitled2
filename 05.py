@@ -47,4 +47,12 @@ apple.say()
 print(setattr(apple, "name2", "ap"))  # 设置一个"name"的属性，值为"ap"
 print(apple.name2)
 
-import django
+
+class Screen(object):
+    def __init__(self, width, height):
+        self.__width = width
+        self.__height = height
+
+    @property
+    def width(self):
+        return self.__width
