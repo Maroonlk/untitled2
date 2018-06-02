@@ -76,3 +76,4 @@ t = Teacher()
 t.say()
 Teacher.sayagain()          # 调用绑定类的函数使用类名
 
+#0603
