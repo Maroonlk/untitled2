@@ -42,3 +42,5 @@ t = TutorMixin()
 print(Tutor.__mro__)
 print(t.__dict__)
 print(Tutor.__dict__)
+
+help(delattr)
