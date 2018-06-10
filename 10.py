@@ -11,7 +11,8 @@ class KeHu(object):
     def set_age(self, value):
         self._age = int(value)
 
-    age = property(fget=get_age, fset=set_age, fdel=None, doc="This property for age")
+    age = property(fget=get_age, fset=set_age, fdel=None,
+                   doc="This property for age")
 
     def get_name(self):
         return self._name
@@ -19,7 +20,8 @@ class KeHu(object):
     def set_name(self, value):
         self._name = value.upper()
 
-    name = property(fget=get_name, fset=set_name, fdel=None, doc="This property for name")
+    name = property(fget=get_name, fset=set_name,
+                    fdel=None, doc="This property for name")
 
 
 a1 = KeHu("apple", 18.009, None)
