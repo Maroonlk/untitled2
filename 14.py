@@ -4,3 +4,7 @@ class Fib(object):
         for x in range(n):
             a, b = b, a + b
         return a
+    
+f = Fib()
+print(f[12])
+
