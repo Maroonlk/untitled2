@@ -8,3 +8,14 @@ class Fib(object):
 f = Fib()
 print(f[12])
 
+
+def str2num(number):
+     try:
+         return int(number)
+     except:
+         return float(number)
+
+print(str2num("7.6"))
+
+
+
