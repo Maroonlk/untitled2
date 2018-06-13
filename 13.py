@@ -13,3 +13,10 @@ class Fib(object):
 
 for n in Fib():
     print(n)
+
+
+class Student(object):
+    def __init__(Chang, Gao, Kuan):
+        self.Chang = Chang
+        self.Gao = Gao
+        self.Kuan = Kuan
