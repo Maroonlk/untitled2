@@ -6,6 +6,8 @@ def str2num(s):
         return int(s)
     except:
         return float(s)
+    finally:
+        print("OK!")
 
 def calc(exp):
     ss = exp.split('+')
