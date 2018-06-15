@@ -15,8 +15,7 @@ class Student(object):
 def sayHello():
     print("Hi, 欢迎来到我的国度！")
 
-if __name__ == '__main__':
-    print("我是模块p01") # 模块里最好不要有这种类似的代码
-                    # 因为在导入时就会被执行
 
+print("我是模块p01")           # 模块里最好不要有这种类似的代码
+                                  # 因为在导入时就会被执行
 

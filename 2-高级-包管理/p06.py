@@ -1,0 +1,1 @@
+import sysprint(type(sys.path))print(sys.path)for x in sys.path:    print(x)
