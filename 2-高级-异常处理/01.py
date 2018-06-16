@@ -7,3 +7,8 @@ try:
 except ZeroDivisionError as e:
     print(e)
     print(e.__str__())
+
+except Exception as e:
+    print("hhh")
+    print(e)
+
