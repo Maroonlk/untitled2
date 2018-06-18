@@ -48,8 +48,18 @@ print(ts)
 
 # sleep： 使程序进入睡眠，n秒后继续
 for i in range(1,10):
-    print(i)
-    time.sleep(1)
+    pass
+    # print(i)
+    # time.sleep(1)
+
+# srtftime: 将时间元祖转化为自定义的字符串格式
+# 最常用的： 把时间表示成   2018 3.26 21:05
+t = time.localtime()
+ft = time.strftime("%Y年%m月%d日 %H:%M" , t)
+print(ft)
+
+print("{0}年{1}月{2}日 {3}:{4}".format(t.tm_year, t.tm_mon, t.tm_mday, t.tm_hour, t.tm_min))
 
 
-
+# datetime模块
+# datetime提供日期和时间的运算和表示
