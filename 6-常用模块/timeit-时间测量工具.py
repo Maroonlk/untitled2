@@ -47,11 +47,11 @@ def doIt(num):
 # setup负责把环境变量准备好
 # 实际相当于给timeit创造了一个小环境
 # 在创作的小环境中，代码执行的顺序是
-    '''
-    def doIt(num):
-        pass
-    num = 3
-    doIt(num)
-    '''
+'''
+def doIt(num):
+    pass
+num = 3
+doIt(num)
+'''
 t = timeit.timeit(stmt="doIt(num)", setup=s+"num=3", number=10)
 print(t)

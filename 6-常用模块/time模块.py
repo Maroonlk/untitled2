@@ -55,7 +55,7 @@ for i in range(1,10):
 # srtftime: 将时间元祖转化为自定义的字符串格式
 # 最常用的： 把时间表示成   2018 3.26 21:05
 t = time.localtime()
-ft = time.strftime("%Y年%m月%d日 %H:%M" , t)
+ft = time.strftime("%Y年%m月%d日 %H:%M", t)
 print(ft)
 
 print("{0}年{1}月{2}日 {3}:{4}".format(t.tm_year, t.tm_mon, t.tm_mday, t.tm_hour, t.tm_min))
