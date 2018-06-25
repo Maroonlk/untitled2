@@ -24,3 +24,5 @@ while flag < 3:
         print("三次机会用完咯！")
 print("Game over!")
 print(guess)
+
+

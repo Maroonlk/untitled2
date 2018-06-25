@@ -1,21 +1,21 @@
-import time
+'''
+Hero's world! bate 0.1
+Maroonlk
+2018-06-25
+'''
+
 
 class Person(object):
-    def __init__(self):
-        self._xue_liang = 100
-        self._fang_yu = 0
-        self._gong_ji = 5
+    def __init__(self, name='NoName', gong_ji=5, xue_liang=100, fang_yu=0):
+        self.name = name
+        self._gong_ji_li = gong_ji
+        self._xue_liang = xue_liang
+        self._fang_yu = fang_yu
 
-    def shou_shang(self, value, who):
-        if isinstance(value, int):
-            self._xue_liang -= (value - self._fang_yu)
-            print("你受到了来自{1}的{0}点伤害！".format(value, who))
-            print("剩余{0}点血量！".format(self._xue_liang))
-        else:
-            raise ValueError("伤害类型错误")
+    def gong_Ji(self, who, value=who._gong_ji_li):
+        self._xue_liang -= (value - self._fang_yu / 2)
 
-    def gong_ji(self, who):
+        print('{0}受到了来自{1}的{2}点伤害！'.format(self.name, who, value)
+        print('{0}剩余HP:  {1}'.format(self.name, self._xue_liang)
 
-
-
-class Gamer(Person):
+    def go_move(self):
