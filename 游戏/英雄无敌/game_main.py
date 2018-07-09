@@ -41,7 +41,7 @@ class User(object):
         self._fang_yu = fang_yu
         self._wei_zhi = wei_zhi
         self.ji_neng = {
-            "1":self._gong_ji_li * random.choice(1,1,1,1.5)
+            "1":self._gong_ji_li * random.choice([1,1,1,1.5])
         }
     # 受伤害
 
@@ -67,13 +67,14 @@ class GuaiWu(object):
         self.fang_yu = fang_yu
         self.wei_zhi = wei_zhi
         self.ji_neng = {
-            '1':self.gong_ji * random.choice(1,1,1,1.5)
+            '1':self.gong_ji * random.choice((1,1,1,1.5))
         }
 
     def shou_Shang(self, who, value):
         self.xue_liang -= (value - self.fang_yu/2)
 
         if self.xue_liang > 0:
+            pass
 
 
 slm = GuaiWu("史莱姆", gong_ji=3, xue_liang=10, fang_yu=1)
@@ -123,7 +124,7 @@ if __name__ == '__main__':
                     a = input("攻击：请输入|1|使用普通攻击:")
 
                     if a == '1':
-                        print("{0}发动了攻击！")
+                        gong_ji(p1.name, slm, p1._gong_ji_li)
 
 
 
